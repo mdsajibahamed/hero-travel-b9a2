@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        body{
+            /* align-items:center ; */
+            justify-content: center;
+            text-align: left;
+
+        }
+        .box{
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            margin-bottom: 5px;
+            padding: 8px;
+            /* align-items: center; */
+            /* justify-content:center */
+            /* overflow: scroll; */
+            overflow: auto;
+            overflow-x: hidden;
+            align-items: flex-end;
+            /* text-align: center; */
+        }
+        .elipsis{
+            width: 300px;
+            white-space: nowrap;
+            overflow: hidden;
+            border: 2px solid black;
+            text-overflow: ellipsis;
+            text-overflow: clip;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <p class="elipsis" title="I am a serious learning">I am a serious learning. I am investing at least 6-8hrs every single day. No gap at all</p>
+    </header>
+    <section>
+        <div class="box">
+            <h3 title="my text box">my text box - 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta deleniti labore aspernatur pariatur asperiores enim, eveniet tenetur numquam excepturi autem tempora distinctio voluptatibus, quasi quis repellat dolores, culpa laboriosam accusantium incidunt corporis. Rem sed minima vel facere illum porro quia doloremque quo necessitatibus dicta sint assumenda est et corrupti laboriosam, amet nostrum adipisci a veritatis. Obcaecati, fugiat natus. Dolores quaerat sunt suscipit! Atque quod omnis placeat rem quidem possimus aliquam, cumque et aperiam? Totam, dolorum! Cumque optio aut repudiandae ipsa tempore soluta dignissimos quo ex dolores eligendi impedit aspernatur debitis odit quibusdam nam expedita sed molestias ullam, molestiae sit. Eveniet.</p>
+        </div>
+        <div class="box">
+            <h3>my text box - 2</h3>
+            <p>Ipsam unde laboriosam beatae aperiam natus numquam sint error, possimus fuga aliquam, odio maiores quaerat modi asperiores reprehenderit tempore sequi. Necessitatibus cum rem vel, consequatur labore corrupti maxime magni, pariatur excepturi quaerat commodi cupiditate porro ipsa facilis repellendus accusamus nemo explicabo recusandae modi, placeat fuga rerum expedita a. Aperiam deleniti nostrum voluptatibus quasi ducimus officiis. Dolorum accusamus reprehenderit sint harum tempora temporibus. Dignissimos alias quae ex ad libero aperiam velit porro cumque cum. Delectus beatae dolore in, accusamus omnis vitae non error earum magnam, tenetur praesentium voluptates illum laborum totam! Explicabo assumenda placeat quas ab nihil beatae, nam neque suscipit.</p>
+        </div>
+        <div class="box">
+            <h3>my text box - 2</h3>
+            <p>Ipsam unde laboriosam beatae aperiam natus numquam sint error, possimus fuga aliquam, odio maiores quaerat modi asperiores reprehenderit tempore sequi. Necessitatibus cum rem vel, consequatur labore corrupti maxime magni, pariatur </p>
+        </div>
+    </section>
+</body>
+</html>

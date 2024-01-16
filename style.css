@@ -1,0 +1,179 @@
+/* PRIMARY STYLES  */
+
+.primary-btn{
+    padding: 10px 30px;
+    background-color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+.section-header{
+
+}
+
+
+/* nav styles  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 40px; */
+    width: 80%;
+    margin: 0 auto;
+
+}
+nav h3{
+ color: #131318;
+ font-family: Mulish;
+ font-size: 36px;
+ /* font-style: normal; */
+ font-weight: 800;
+ /* not brack in line nowrap */
+ white-space: nowrap;
+ /* line-height: normal; */
+}
+nav .tour{
+ color: #FF5400;
+ font-family: Mulish;
+ font-size: 36px;
+ font-style: normal;
+ font-weight: 800;
+ line-height: normal;
+}
+nav .img{
+    display: flex;
+    align-items: center;
+
+}
+nav .img img{
+    width: 45px;
+    height: 50px;
+    flex-shrink: 0;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style:none ;
+    margin-right: 40px;
+    font-size: 1.4rem;
+    
+}
+nav li a{
+    text-decoration:overline;
+    font-weight: 500;
+    font-family: Mulish;
+
+}
+ul .red{
+    color:#FF5400 ;
+    font-size: 1.5rem;
+    font-weight:600 ;
+}
+/* banner styles  */
+.banner{
+    /* width: 1200px; */
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    height: 500px;
+    opacity: 80%;
+}
+.banner-content{
+    text-align: center;
+}
+/* form{
+    justify-content:center ;
+} */
+.banner-content{
+    padding-top: 50px;
+}
+.banner-content .banner-header{
+    color: #FFF;
+
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 0px;
+
+}
+.banner-content .banner-description{
+    color: #FFF;
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+padding: 0px 150px;
+}
+
+/* tour section */
+.tours{
+    display: flex;
+    margin-top: 70px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.tours-header{
+    color: #131318;
+
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-align: left;
+margin-bottom: 30px;
+}
+.tours-content{
+    padding-left: 0px;
+    padding-right: 90px;
+}
+.tours img{
+    /* width: 400px; */
+    height: 500px;
+    margin-top: 40px;
+}
+.tours-content input{
+    margin-top: 30px;
+}
+.destination-content{
+ text-align: center;
+ width: 80%;
+ margin: 0 auto;
+}
+.destination-header{
+    color: #131318;
+
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 0px;
+margin-top: 70px;
+}
+.destination-description{
+    color: rgba(19, 19, 24, 0.70);
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+padding: 0px 100px;
+
+}
